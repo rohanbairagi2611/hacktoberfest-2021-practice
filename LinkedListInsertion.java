@@ -10,6 +10,34 @@
 	return head;
 }
 
+ public Node insertLast(int data){
+	Node temp = new Node(data);
+	if(head == null){
+		head = temp;
+	}
+	else{
+		Node current = head;
+		while(current.next != null){
+		current = current.next;
+		}
+		current.next = temp;        
+	    }
+	return head;
+}
+ public Node insertLast(int data){
+	Node temp = new Node(data);
+	if(head == null){
+		head = temp;
+	}
+	else{
+		Node current = head;
+		while(current.next != null){
+		current = current.next;
+		}
+		current.next = temp;        
+	    }
+	return head;
+}
 
  public Node insertLast(int data){
 	Node temp = new Node(data);
