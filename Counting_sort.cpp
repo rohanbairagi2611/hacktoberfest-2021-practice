@@ -39,3 +39,15 @@ int main(){
 	}
 	return 0;
 }
+int main(){
+	int arr[] = {1,4,7,2,9,1,5,2,0};
+	int n = sizeof(arr)/sizeof(int);
+	
+	counting_sort(arr, n);
+	
+	for(int x:arr){
+		cout<<x<<" ";
+	}
+	return 0;
+}
+
