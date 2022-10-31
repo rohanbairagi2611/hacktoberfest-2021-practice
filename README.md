@@ -1,1 +1,1 @@
-# hacktoberfest-2021-practice
+# hacktoberfest-2022-practice
